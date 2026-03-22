@@ -4,7 +4,7 @@ Distance sensor resets are used to instantaneously correct a robot's pose along 
 Compared to a traditional DSR, this command:
 - Filters outliers using a median of multiple readings
 - Automatically chooses the axis to align given the chosen sensor
-- Accounts for non-parallel correction using basic trigonometry
+- Accounts for non-parallel (or orthogonal) correction using basic trigonometry
 
 ## Usage
 All the user must do is configure the ports and the sensor placement relative to the bot's center, then use this command anywhere:

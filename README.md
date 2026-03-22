@@ -1,5 +1,5 @@
 # Advanced DSR Command
-Distance sensor resets are used to instantaneously correct a robot's pose along a given axis. Be taking a distance sensor reading from the robot to the wall and correctly displacing the bot's known pose.
+Distance sensor resets are used to instantaneously correct a robot's pose along a given axis by taking a distance sensor reading from the robot to the wall and correctly displacing the bot's known pose.
 
 Compared to a traditional DSR, this command:
 - Filters outliers using a median of multiple readings
